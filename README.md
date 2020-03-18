@@ -25,7 +25,7 @@ The [SCADA protocol](https://en.wikipedia.org/wiki/SCADA) and the **MQ Integrato
 ###### Are there standard ports for MQTT to use?
 Yes. TCP/IP port 1883 is reserved with IANA for use with MQTT. TCP/IP port 8883 is also registered, for using [MQTT Protocol](https://en.wikipedia.org/wiki/MQTT) over [SSL](https://en.wikipedia.org/wiki/Transport_Layer_Security).
 
-####### Does [MQTT Protocol](https://en.wikipedia.org/wiki/MQTT) support security?
+###### Does [MQTT Protocol](https://en.wikipedia.org/wiki/MQTT) support security?
 You can pass a user name and password with an MQTT packet in V3.1 of the protocol. Encryption across the network can be handled with SSL, independently of the [MQTT Protocol](https://en.wikipedia.org/wiki/MQTT) protocol itself (it is worth noting that SSL is not the lightest of protocols, and does add significant network overhead). Additional security can be added by an application encrypting data that it sends and receives, but this is not something built-in to the protocol, in order to keep it simple and lightweight.
 
 
